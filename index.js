@@ -58,7 +58,7 @@ function resetScores(){
 function highlightWinner(){
     
     if (Math.max(countGuest,count) == countGuest && count!=countGuest)
-    {alert("Guest is the winner with "+ countGuest +" point(s)!")}
+    {alert("Away is the winner with "+ countGuest +" point(s)!")}
     
        if (Math.max(countGuest,count) == count && count!=countGuest)
     {alert("Home is the winner with "+ count +" point(s)!")}
